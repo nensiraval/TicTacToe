@@ -189,12 +189,10 @@ public class MainActivity extends AppCompatActivity {
     void checkDraw()
     {
         if (!binding.i1.getText().toString().isEmpty() &&!binding.i2.getText().toString().isEmpty() &&!binding.i3.getText().toString().isEmpty()
-                &&!binding.i4.getText().toString().isEmpty() &&!binding.i5.getTexxt().toString().isEmpty() &&!binding.i6.getText().toString().isEmpty()
+                &&!binding.i4.getText().toString().isEmpty() &&!binding.i5.getText().toString().isEmpty() &&!binding.i6.getText().toString().isEmpty()
                 &&!binding.i7.getText().toString().isEmpty() &&!binding.i8.getText().toString().isEmpty() &&!binding.i9.getText().toString().isEmpty())
         {
             binding.win.setText("It's a draw");
         }
     }
 }
-
-// master
